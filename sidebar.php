@@ -1,5 +1,13 @@
 <aside id="sidebar">
 	<section>
+		<form action="search.php" method="get">
+			<label for="the_keywords">Search:</label>
+			<input type="search" name="keywords" id="the_keywords">
+			<input type="submit" value="Go" class="search-button">
+		</form>
+	</section>
+
+	<section>
 		<h2>Recent Posts</h2>
 		<?php
 		//get the 5 latest published post titles
