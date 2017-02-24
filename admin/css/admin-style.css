@@ -179,6 +179,13 @@ main li:before {
 }
 
 /* forms */
+form{
+  margin:1em 0;
+}
+form .hint{
+  color:gray;
+  font-size: .9em;
+}
 form input, form textarea, form select {
   width: 100%;
   display: block;
@@ -203,6 +210,7 @@ form input[type=submit] {
   border: none;
   border-bottom: solid 4px #21ccbb;
   padding: .7em 3em;
+  margin-top:1em;
   color: white;
   text-shadow: 0 -1px 0 #21ccbb;
   font-size: 1.1em;
