@@ -5,8 +5,10 @@ require('login-parser.php');
 <html>
 <head>
 	<title>Login to your account</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="admin/css/admin-style.css">
 </head>
-<body>
+<body class="login">
 
 <h1>Log In to Your Account</h1>
 
@@ -28,6 +30,8 @@ echo $feedback;
 	<input type="hidden" name="did_login" value="true">
 
 </form>
+
+<a href="register.php">Sign up for an account</a>
 
 </body>
 </html>

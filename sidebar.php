@@ -1,4 +1,10 @@
 <aside id="sidebar">
+	<nav>
+		<ul>
+			<li><a href="admin/">Admin Panel</a></li>
+			<li><a href="register.php">Sign up</a></li>
+		</ul>
+	</nav>
 	<section>
 		<form action="search.php" method="get">
 			<label for="the_keywords">Search:</label>
