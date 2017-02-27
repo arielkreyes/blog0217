@@ -95,12 +95,12 @@ $current_page = 1;
 	<?php
 		}//end if the user is on a valid page
 		else{
-			echo 'Invalid Page';
+			show_feedback('Invalid Page');
 		}
 
 	} //end if there are posts
 	else{
-		echo 'Sorry, no posts to show.';
+		show_feedback('Sorry, no posts to show.');
 	} 
 	?>
 
