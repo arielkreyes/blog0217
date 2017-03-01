@@ -15,4 +15,7 @@ if( $db->connect_errno > 0 ){
 //salt for making our passwords stronger. keep this a secret!
 define('SALT', 'vgrqejun4tge7iuohtr1yhtdkmrsf52318675326gresjiludsvz6yg');
 
+define('ROOT_URL', 'http://localhost/melissa-php-0217/blog/');
+define('ROOT_PATH', 'C:\xampp\htdocs\melissa-php-0217\blog');
+
 error_reporting( E_ALL & ~E_NOTICE ); 
